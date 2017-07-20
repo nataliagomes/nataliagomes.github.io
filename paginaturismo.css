@@ -1,0 +1,35 @@
+body {
+   background-color:   pink;
+   font-style: italic;
+}
+   .centralizado {
+      width: 600px; 
+      margin: 0 auto;
+}
+h1{text-align: center}
+img {border-radius: 50%;
+}
+h2{text-align:center;}
+h3{ 
+   text-align: center;
+   position:relative; /*motifica */
+    top:100px;
+    font-size:30px;
+    color:#2a2d34;
+}
+
+.caixinha {width: 500px;
+margin:0 auto;}
+.caixinha p {
+   position:relative;
+   bottom:230px;
+   text-align: center;
+   color:white;
+   visibility: hidden; /*escondido */
+
+}
+
+.caixinha:hover p { visibility: visible; 
+
+}
+p.fonte{text-align: center}
