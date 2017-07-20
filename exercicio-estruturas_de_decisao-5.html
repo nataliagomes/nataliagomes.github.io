@@ -1,0 +1,14 @@
+<script>
+var nome= prompt( "informe o nome");
+var quantidade= prompt(" informe a quantidade");
+var preco= prompt(" informe o preço");
+var total= ( quantidade*preco); 
+document.write ("total:"+total);
+var desconto= 0;
+if (quantidade<=5) { desconto=0.02; } 
+else if (quantidade>5&&quantidade<=10) { desconto=0.03;}
+else { desconto=0.05;}
+document.write("desconto;"+desconto);
+var a_pagar= (total*(1-desconto));
+document.write ("total a pagar:"+ a_pagar);
+</script>
